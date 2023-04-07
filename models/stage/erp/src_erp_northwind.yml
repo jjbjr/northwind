@@ -15,3 +15,11 @@ sources:
               - unique
               - not_null             
       
+      - name: employee_territories
+        description: Tabela com informações das areas de atuacao
+
+      - name: territories
+        description: Tabela contendo informações dos territórios.
+
+      - name: region
+        description: Tabela contendo informações sobre as regiões.
