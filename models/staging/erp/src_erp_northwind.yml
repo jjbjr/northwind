@@ -23,3 +23,6 @@ sources:
 
       - name: region
         description: Tabela contendo informações sobre as regiões.
+      
+      - name: products
+      

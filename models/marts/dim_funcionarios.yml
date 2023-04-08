@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: dim_funcionarios
+    description: Tabela dimensão com dados de funcionarios
+    columns:
+      - name: sk_funcionario
+        description: Surrogate key da tabela
+        tests:
+          - unique
+          - not_null
+              
